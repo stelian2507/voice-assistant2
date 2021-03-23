@@ -22,6 +22,6 @@ function read(text){
     else if(text.includes('my birthday'))
     speech.text = 'Do you think you\'re famous! How the heck would I know your birthday!';
     else if(text.includes('love me'))
-    speech.text = 'Of course, not! You piece of junk!';
+    speech.text = 'Of course, not!';
     window.speechSynthesis.speak(speech);
 }
