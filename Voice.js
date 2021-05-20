@@ -4,7 +4,7 @@ const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogni
 const recognition = new SpeechRecognition();
 
 recognition.onstart = function(){
-    console.log('You can speak now!!!');
+    console.log('You can speak now!');
 }
 
 recognition.onresult = function(event){
